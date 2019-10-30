@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.wrap{
+	width: 900px;
+	margin:0 auto;
+	position: relative;
+}
+
+.topbutton{
+	
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: white;
+
+}
+
+.topbutton img{
+	width: 60px;
+	height: 60px;
+}
+.header{
+	height: 400px;
+	
+}
+
+.one li{
+	float: right;
+	padding-top:5px;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.one{
+	width: 900px;
+	height: 25px;
+	background-color:rgba(192,192,192,0.4);
+}
+
+.logo td{
+	color: #00DDAA;
+	margin-bottom:10px;
+	padding-top: 15px;	
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 13px;
+}
+
+.logo a{
+	background-image: url(../img/logo.png);
+	overflow:hidden;
+    text-indent:101%;
+    display:block;
+    height:40px;
+    width: 180px;
+    float:left;
+    margin-top:5px;
+}
+
+.box1{
+	position: relative;
+	margin-top:49px; 
+	width: 900px;
+    height: 346px;
+}
+
+.box1 img{
+	width: 900px;
+	height: : 330px;
+}
+
+.box2{
+	float: right;
+	margin-top:-47px;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 4;
+
+	}
+
+.box2 a{
+	text-decoration: none;
+	padding:14px 15px;
+	text-align: center;
+	display: block;
+	transition: all .3s;
+
+}
+
+.box2>li{
+	float:left;
+	text-align: center;
+
+	
+}
+
+.box2 ul{
+	display: none;
+	text-align: center;		
+}
+
+
+.box2 a{
+		color:#00DDAA;  	
+}
+
+.box2 a:hover,.box2 a.active{
+	background-color: #00DDAA;
+	color: white;
+}
+
+.dropdown-open1 li{
+	background-color: white;
+	border-bottom:1.5px solid rgba(0,0,0,0.2);
+
+}
+.dropdown1{
+		border-bottom:2px solid rgba(0,0,0,0.2);
+}
+
+.swiper-container {
+    width: 900px;
+    height: 346px;
+    position: relative;
+}
+.swiper-slide img{
+	width: 900px;
+	height: 346px;
+}
+
+
+.banner{
+	width: 885px;
+	height: 80px;
+	color:white;
+	font-size: 23px;
+	line-height: 36px;
+	letter-spacing: 3px;
+	padding-left: 15px;
+	padding-top: 10px;
+	background-color:rgba(0,0,0,0.2);
+	position:absolute;
+	top:220px;
+	z-index: 2;
+}
+
+.top{
+    border-collapse:separate;
+    -webkit-border-horizontal-spacing:30px;
+    -webkit-border-vertical-spacing:50px;
+	
+}
+
+.top img{
+	width:100px;
+	height: 100px;
+}
+
+.top th{
+	
+	padding:10px; 
+	border:1px solid gray;
+	width: 300px;
+	line-height: 25px;
+
+}
+
+.top p,.top ul{
+	padding-left:5px; 
+	text-align: left;
+	font-size: 10px;
+	list-style:disc;
+	line-height: 20px;
+}
+
+
+.top ul{
+	padding-left:25px;
+}
+
+.center table{
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 800px;
+	text-align: left;
+}
+.center th,.center td{
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	padding: 6px;
+	padding-left: 20px;
+	font-size:10px;
+
+}
+.center p{
+	font-size:18px;
+	text-align:center;
+}
+.center td{
+	font-weight: bold;
+	background-color:rgba(192,192,192,0.2);
+}
+
+.bottom{
+	height: 400px;
+	margin-top:40px; 
+	background-image: url(../img/bgg.png); 
+	color:white;
+	
+}
+
+.bottom p{
+	padding-top: 40px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.labels{
+	float: right;
+	margin-top: 30px;
+	margin-right: 70px;
+	line-height: 20px;
+	font-size: 10px;
+
+}
+
+#name,#tel,#mail{
+	width: 300px;
+}
+
+.button{
+	margin-top:20px; 
+	text-align:right;
+}
+textarea{
+	margin-top:30px; 
+	margin-left:100px; 
+	width: 350px;
+	height: 200px;
+}
+
+.footer{
+	
+	height: 100px;
+}
+
+.footer img{
+	
+	width: 130px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.footer p{
+	margin-top:15px;
+	margin-right:5px; 
+	line-height: 20px; 
+	font-size: 10px;
+	float:right;
+}
+
+.footer p span{
+	color:	#FF0088;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
